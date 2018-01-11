@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<!-- 
+
+  DigitalSky Codeless Language Module for BBEdit and TextWrangler
+  Version 1.0 B1 - Sept 6, 2013
+
+  Created by Andrew Hazelden
+  andrew@andrewhazelden.com
+  http://www.andrewhazelden.com
+  
+  Released under a Creative Commons Attribution-ShareAlike License:
+	<http://creativecommons.org/licenses/by-sa/2.0/>
+
+  To install, copy here:
+    
+      ~/Library/Application Support/BBEdit/Language Modules/
+
+  or here:
+
+    ~/Library/Application Support/TextWrangler/Language Modules/
+
+  and relaunch BBEdit or TextWrangler.
+
+-->
+
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+
+	<key>BBLMColorsSyntax</key>
+	<true/>
+
+	<key>Copyright</key>
+	<string>Copyright © 2016, Xavier Robert</string>
+	
+	<key>Author</key>
+	<string>Xavier Robert</string>
+	
+	<key>Version</key>
+	<string>1.0</string>
+
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+
+	<key>BBLMLanguageCode</key>
+	<string>Pecb</string>
+
+	<key>BBLMLanguageDisplayName</key>
+	<!--<string>DigitalSky</string>-->
+	<string>Pecube</string>
+
+	<key>BBLMScansFunctions</key>
+	<true/>
+
+	<key>BBLMFileNamesToMatch</key>
+	<array>
+		<string>topo_parameters.txt</string>
+		<string>fault_parameters.txt</string>
+	</array>
+
+
+	<key>BBLMPreferredFilenameExtension</key>
+		<string>txt</string>
+
+	
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+
+	<key>BBLMCommentLineDefault</key>
+	<string>$</string>
+	
+
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>Pecube</string>
+	</array>
+		
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<string>Pecube2</string>
+	</array>
+	
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+				<string>topo_parameters.txt</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+				<string>fault_parameters.txt</string>
+		</dict>
+	</array>
+
+	<key>Language Features</key>
+	<dict>
+		
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz-#%$</string>		
+		
+			
+		<key>BBLMCommentLineDefault</key>
+		<!-- This is used to comment line with the shortcut cmd+shift+/ -->
+			<string>$</string>
+		<key>PreferLineCommentsWhenCommenting</key>
+		<true/>		
+		<key>Comment Pattern</key>
+		<string><![CDATA[
+		(?x:
+			(\$.*?$)         |    (?# Line comment)
+			(\#.*?$)              (?# Line comment)
+		)
+		]]></string>
+
+
+  </dict>
+	
+</dict>
+</plist>
+
