@@ -1,7 +1,7 @@
 Pecube input files Language Module for BBEdit and TextWrangler
 ==============================================================
 
-Version 1.0 B1 - Jan 10, 2018
+Version 2.0 B1 - Dec 17, 2020
 
 Created by Xavier Robert
 
@@ -28,3 +28,9 @@ Usage
 
 As all Pecube input files are txt file, this is not automatic.
 To apply the color syntax, you thus need to manually apply it.
+
+History
+-------
+
+- Release 1.0 (2018/01/10)
+- New keywords definition (2020/12/17)

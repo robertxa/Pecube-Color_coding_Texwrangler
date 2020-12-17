@@ -57,11 +57,15 @@
 	<array>
 		<string>topo_parameters.txt</string>
 		<string>fault_parameters.txt</string>
+		<string>Pecube*.in</string>
 	</array>
 
 
 	<key>BBLMPreferredFilenameExtension</key>
+	<array>
 		<string>txt</string>
+		<string>in</string>
+	</array>
 
 	
 	<key>BBLMSupportsTextCompletion</key>
@@ -93,6 +97,169 @@
 		</dict>
 	</array>
 
+	<key>BBLMSupportsTextCompletion</key>
+		<true/>
+	
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>echo_input_file</string>
+		<string>data_folder</string>
+		<string>default_age</string>
+		<string>FT_code_flag</string>
+		<string>nx</string>
+		<string>ny</string>
+		<string>topo_file_name</string>
+		<string>lon0</string>
+		<string>lat0</string>
+		<string>nskip</string>
+		<string>ntime</string>
+		
+		<string>time_topo1</string>
+		<string>amplification1</string>
+		<string>offset1</string>
+		<string>time_topo2</string>
+		<string>amplification2</string>
+		<string>offset2</string>
+		<string>time_topo3</string>
+		<string>amplification3</string>
+		<string>offset3</string>
+		<string>time_topo4</string>
+		<string>amplification4</string>
+		<string>offset4</string>
+		<string>time_topo5</string>
+		<string>amplification5</string>
+		<string>offset5</string>
+		<string>time_topo6</string>
+		<string>amplification6</string>
+		<string>offset6</string>
+		<string>time_topo7</string>
+		<string>amplification7</string>
+		<string>offset7</string>
+		<string>time_topo8</string>
+		<string>amplification8</string>
+		<string>offset8</string>
+		<string>time_topo9</string>
+		<string>amplification9</string>
+		<string>offset9</string>
+		<string>time_topo10</string>
+		<string>amplification10</string>
+		<string>offset10</string>
+		
+		<string>thickness</string>
+		<string>basal_temperature</string>
+		<string>nz</string>
+		<string>sea_level_temperature</string>
+		<string>lapse_rate</string>
+		<string>thermal</string>
+		<string>diffusivity</string>
+		<string>thermal_diffusivity</string>
+		<string>heat_production</string>
+		<string>fault_advect_flag</string>
+		<string>shear_heating</string>
+		<string>nfault</string>
+		<string>lon1</string>
+		<string>lat1</string>
+		<string>lon2</string>
+		<string>lat2</string>
+
+		<string>npoint1</string>
+		<string>r1_1</string>
+		<string>s1_1</string>
+		<string>r1_2</string>
+		<string>s1_2</string>
+		<string>nstep1</string>
+		<string>time_start1_1</string>
+		<string>time_end1_1</string>
+		<string>velo1_1</string>
+		<string>time_start1_2</string>
+		<string>time_end1_2</string>
+		<string>velo1_2</string>
+		<string>time_start1_3</string>
+		<string>time_end1_3</string>
+		<string>velo1_3</string>
+		<string>time_start1_4</string>
+		<string>time_end1_4</string>
+		<string>velo1_4</string>
+		<string>time_start1_5</string>
+		<string>time_end1_5</string>
+		<string>velo1_5</string>
+		
+		<string>npoint2</string>
+		<string>r2_1</string>
+		<string>s2_1</string>
+		<string>r2_2</string>
+		<string>s2_2</string>
+		<string>nstep2</string>
+		<string>time_start2_1</string>
+		<string>time_end2_1</string>
+		<string>velo2_1</string>
+		<string>time_start2_2</string>
+		<string>time_end2_2</string>
+		<string>velo2_2</string>
+		<string>time_start2_3</string>
+		<string>time_end2_3</string>
+		<string>velo2_3</string>
+		<string>time_start2_4</string>
+		<string>time_end2_4</string>
+		<string>velo2_4</string>
+		<string>time_start2_5</string>
+		<string>time_end2_5</string>
+		<string>velo2_5</string>
+		
+		<string>npoint3</string>
+		<string>r3_1</string>
+		<string>s3_1</string>
+		<string>r3_2</string>
+		<string>s3_2</string>
+		<string>nstep3</string>
+		<string>time_start3_1</string>
+		<string>time_end3_1</string>
+		<string>velo3_1</string>
+		<string>time_start3_2</string>
+		<string>time_end3_2</string>
+		<string>velo3_2</string>
+		<string>time_start3_3</string>
+		<string>time_end3_3</string>
+		<string>velo3_3</string>
+		<string>time_start3_4</string>
+		<string>time_end3_4</string>
+		<string>velo3_4</string>
+		<string>time_start3_5</string>
+		<string>time_end3_5</string>
+		<string>velo3_5</string>
+
+		<string>isostasy</string>
+		<string>EET</string>
+		<string>rho_crust</string>
+		<string>rho_asthenosphere</string>
+		<string>young_modulus</string>
+		<string>poisson_ratio</string>
+		<string>nx_isostasy</string>
+		<string>ny_isostasy</string>
+		<string>age_AHe_flag</string>
+		<string>age_ZHe_flag</string>
+		<string>age_AFT_flag</string>
+		<string>age_ZFT_flag</string>
+		<string>age_FTL_flag</string>
+		<string>age_KAr_flag</string>
+		<string>age_BAr_flag</string>
+		<string>age_MAr_flag</string>
+		<string>age_HAr_flag</string>
+		<string>save_PTT_paths</string>
+		<string>save_eroded_volume</string>
+		<string>maximum_number_of_iterations</string>
+		<string>sample_size_for_first_iteration</string>
+		<string>sample_size_for_all_other_iterations</string>
+		<string>number_of_cells_to_resample</string>
+		<string>misfit_weight_AGE</string>
+		<string>misfit_slope</string>
+		<string>misfit_corrected</string>
+	
+	</array>
+	
+	
+	
+	
 	<key>Language Features</key>
 	<dict>
 		
