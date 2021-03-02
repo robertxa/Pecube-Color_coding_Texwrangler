@@ -298,14 +298,21 @@
 	
 	</array>
 	
-	
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<string>Topo30</string>
+		<string>ExtractedDEM</string>
+		<string>dat</string>
+		<string>:</string>
+
+	</array>
 	
 	
 	<key>Language Features</key>
 	<dict>
 		
 		<key>Identifier and Keyword Characters</key>
-		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz-#%$</string>		
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz-#%$:</string>		
 		
 			
 		<key>BBLMCommentLineDefault</key>
