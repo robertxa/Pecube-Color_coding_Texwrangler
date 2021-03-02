@@ -111,47 +111,58 @@
 		<string>topo_file_name</string>
 		<string>lon0</string>
 		<string>lat0</string>
+		<string>dlon</string>
+		<string>dlat</string>
 		<string>nskip</string>
 		<string>ntime</string>
-		
 		<string>time_topo1</string>
 		<string>amplification1</string>
 		<string>offset1</string>
+		<string>output1</string>
 		<string>time_topo2</string>
 		<string>amplification2</string>
 		<string>offset2</string>
+		<string>output2</string>
 		<string>time_topo3</string>
 		<string>amplification3</string>
 		<string>offset3</string>
+		<string>output3</string>
 		<string>time_topo4</string>
 		<string>amplification4</string>
 		<string>offset4</string>
+		<string>output4</string>
 		<string>time_topo5</string>
 		<string>amplification5</string>
 		<string>offset5</string>
+		<string>output5</string>
 		<string>time_topo6</string>
 		<string>amplification6</string>
 		<string>offset6</string>
+		<string>output6</string>
 		<string>time_topo7</string>
 		<string>amplification7</string>
 		<string>offset7</string>
+		<string>output7</string>
 		<string>time_topo8</string>
 		<string>amplification8</string>
 		<string>offset8</string>
+		<string>output8</string>
 		<string>time_topo9</string>
 		<string>amplification9</string>
 		<string>offset9</string>
+		<string>output9</string>
 		<string>time_topo10</string>
 		<string>amplification10</string>
 		<string>offset10</string>
+		<string>output10</string>
 		
 		<string>thickness</string>
 		<string>basal_temperature</string>
 		<string>nz</string>
 		<string>sea_level_temperature</string>
 		<string>lapse_rate</string>
-		<string>thermal</string>
-		<string>diffusivity</string>
+		<!--<string>thermal</string>
+		<string>diffusivity</string> -->
 		<string>thermal_diffusivity</string>
 		<string>heat_production</string>
 		<string>fault_advect_flag</string>
@@ -167,6 +178,14 @@
 		<string>s1_1</string>
 		<string>r1_2</string>
 		<string>s1_2</string>
+		<string>r1_3</string>
+		<string>s1_3</string>
+		<string>r1_4</string>
+		<string>s1_4</string>
+		<string>r1_5</string>
+		<string>s1_5</string>
+		<string>r1_6</string>
+		<string>s1_6</string>
 		<string>nstep1</string>
 		<string>time_start1_1</string>
 		<string>time_end1_1</string>
@@ -189,6 +208,14 @@
 		<string>s2_1</string>
 		<string>r2_2</string>
 		<string>s2_2</string>
+		<string>r2_3</string>
+		<string>s2_3</string>
+		<string>r2_4</string>
+		<string>s2_4</string>
+		<string>r2_5</string>
+		<string>s2_5</string>
+		<string>r2_6</string>
+		<string>s2_6</string>
 		<string>nstep2</string>
 		<string>time_start2_1</string>
 		<string>time_end2_1</string>
@@ -211,6 +238,14 @@
 		<string>s3_1</string>
 		<string>r3_2</string>
 		<string>s3_2</string>
+		<string>r3_3</string>
+		<string>s3_3</string>
+		<string>r3_4</string>
+		<string>s3_4</string>
+		<string>r3_5</string>
+		<string>s3_5</string>
+		<string>r3_6</string>
+		<string>s3_6</string>
 		<string>nstep3</string>
 		<string>time_start3_1</string>
 		<string>time_end3_1</string>
@@ -227,6 +262,8 @@
 		<string>time_start3_5</string>
 		<string>time_end3_5</string>
 		<string>velo3_5</string>
+
+		<string>logarithmic_velocity</string>
 
 		<string>isostasy</string>
 		<string>EET</string>
@@ -251,6 +288,10 @@
 		<string>sample_size_for_first_iteration</string>
 		<string>sample_size_for_all_other_iterations</string>
 		<string>number_of_cells_to_resample</string>
+		<string>misfit_weight_FTLD</string>
+		<string>misfit_weight_TH</string>
+		<string>misfit_weight_43He</string>
+		<string>misfit_weight_TL</string>
 		<string>misfit_weight_AGE</string>
 		<string>misfit_slope</string>
 		<string>misfit_corrected</string>
@@ -285,4 +326,3 @@
 	
 </dict>
 </plist>
-
